@@ -268,3 +268,56 @@ html,body{
     font-weight: 700;
     color: #545454c9;
 }
+@media(max-width:1050px){
+    #page5,#page6{
+        height: auto;
+        padding: 50px 0;
+    }
+    #page5{
+        margin: 50px auto;
+        gap: 0;
+    }
+    #page5>.left5>h1{
+        top: 50%;
+    }
+    .right5{
+        padding-left: 0;
+    }
+    #page3-upper{
+        width: 60%;
+    }
+}
+
+@media (max-width:950px){
+    #page5>.left5>h1{
+        position: unset;
+        transform: unset;
+        text-align: center;
+        padding-top: 50px;
+    }
+     #page3-upper{
+        width: 80%;
+    }
+}
+
+
+@media(max-width:660px){
+    #page5{
+        flex-direction: column;
+    }
+
+     .left5,.right5{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .right5>h3{
+        width: 100%;
+    }
+    .right5>button{
+        display: inline-block;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+}
